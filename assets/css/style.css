@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --borderColor : #e5e8eb;
+}
+
+html, body {
+    background: #ffffff;
+    color: #333333;
+}
+
+a, a::after , a:link a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: column;
+    padding: .25rem;
+}
+
+.container {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+}
+
+.container .title {
+    margin: 10px;
+}
+
+.container .btn {
+    margin-left: 8px;
+}
+
+.box {
+    margin: 12px 6px;
+    border: 1px solid var(--borderColor);
+}
+
+.box-body {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.box-title {
+    font-size: 26px;
+    letter-spacing: .5px;
+    font-weight: bold;
+}
+
+.box-text {
+    font-size: 18px;
+    letter-spacing: .25px;
+}
+
+.btn {
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+    height: 35px;
+    border: 1px solid var(--borderColor);
+    cursor: pointer;
+}
+
+#new-form {
+    width: 100%;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;  
+    justify-content: flex-start;
+    margin: 12px 0;
+}
+
+input[type="text"]{
+    height: 52px;
+    padding: 18px 12px;
+} 
+
+textarea {
+    height: 66px;
+    padding: 9px 6px;
+}
+
+input,textarea {
+    height: 66px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid var(--borderColor);
+}
+
+.title {
+    margin: 6px 0;
+    font-size: 26px;
+}
+
+label {
+    margin: 4px 0;
+    font-size: 22px;
+}
